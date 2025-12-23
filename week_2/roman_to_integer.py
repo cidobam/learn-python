@@ -25,7 +25,7 @@ class Solution:
                  "C": 100,
                  "D": 500,
                  "M": 1000}
-        total_value=0
+        total_value = 0
         for i in range(len(s)):
             letter_value = values[s[i]]
             if i+1 < len(s) and letter_value < values[s[i+1]]:
