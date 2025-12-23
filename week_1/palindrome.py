@@ -4,3 +4,5 @@ class Solution:
         s = str(x)
         # tersini al ve karşılaştır
         return s == s[::-1]
+    
+    print("hello")
